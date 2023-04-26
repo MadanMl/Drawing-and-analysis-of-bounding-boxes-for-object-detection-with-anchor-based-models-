@@ -14,3 +14,19 @@ There are 2 main folders (Real and Artificial).
 
 ## Citation
 If you use these datasets in your work then please cite us using the following reference:
+@InProceedings{10.1007/978-3-031-31435-3_24,
+author="Madan, Manav
+and Reich, Christoph
+and Hassenpflug, Frank",
+editor="Gade, Rikke
+and Felsberg, Michael
+and K{\"a}m{\"a}r{\"a}inen, Joni-Kristian",
+title="Drawing and Analysis of Bounding Boxes for Object Detection with Anchor-Based Models",
+booktitle="Image Analysis",
+year="2023",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="359--373",
+abstract="Supervised object detection models are trained to recognize certain objects. These models are classified into two types: single-stage detectors and two-stage detectors. The single-stage detectors just need one pass through the model to anticipate all the bounding boxes, whereas the two-stage detectors require to first estimate the image portions where the object could be located. Due to their speed and simplicity, single-stage anchor-based models are used in many industrial settings. Training such models require bounding boxes that describe the spatial location of an object, which are usually drawn by an expert. However, the question remains, how much area should be considered when drawing the bounding boxes? In this paper, we demonstrate the effects that the size and placement of a rectangular bounding box can have on the performance of the anchor-based models. For this, we first perform experiments on a synthetically generated binary dataset and then on a real-world object detection dataset. Our results show that fixing the size of the bounding boxes can help in improving the performance of the model in the case of single class object detection (approximately 50{\%} improvement in mAP@[.5:.95] for real world dataset). Furthermore, we also demonstrate how freely available tools can be combined for obtaining the best possible semi automated object labeling pipeline.",
+isbn="978-3-031-31435-3"
+}
